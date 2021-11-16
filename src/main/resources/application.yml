@@ -1,0 +1,33 @@
+api:
+  common:
+    version: 1.0.0
+    title: Sample API
+    description: 정신 건강 설문 응답과 관련된 정보를 제공하는 API입니다.
+    termsOfServiceUrl: 준비중...
+    license: Sample License
+    licenseUrl: Sample URL
+
+    contact:
+      name: Mthekid
+      url: sample...
+      email: mhj5730@naver.com
+
+
+app:
+  userInfo-service:
+    host: localhost
+    port: 7001
+  mentalhealth-service:
+    host: localhost
+    port: 7002
+  gutInfo-service:
+    host: localhost
+    port: 7003
+
+logging:
+  level:
+    root: INFO
+    se.magnus: DEBUG
+
+server:
+  port: 7004
